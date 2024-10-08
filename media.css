@@ -1,0 +1,126 @@
+@media (max-width: 1024px) {
+    
+    .container{
+        justify-content: space-between !important;
+        display: flex;
+        text-align: center;
+        left: 0;
+    }
+    .InputContainer{
+        padding: 0;
+    }
+    
+}
+
+
+
+@media (min-width: 1200px) {
+    .carousel-item {
+      height: 800px;
+    }
+    
+  }
+  
+  /* For devices between 992px and 1200px */
+  @media (max-width: 1199.98px) and (min-width: 992px) {
+    .carousel-item {
+      height: 600px;
+    }
+    .container{
+      left: 0;
+    }
+   
+  }
+  
+  /* For devices between 768px and 992px */
+  @media (max-width: 991.98px) and (min-width: 768px) {
+    
+    .BannerDescriptionContainer{
+      left: 0 !important;
+    }
+  }
+  
+  /* For devices below 768px */
+  @media (max-width: 700px) {
+    .MainSection{
+      display: none;
+    }
+    .navbar-toggler{
+      margin-right: 20px;
+    }
+    .Movies-Second-Section-Container{
+      padding: 10px !important;
+    }
+    .Movies-Second-Section{
+      padding: 0 !important;
+    }
+    .Second-Section-Container-Title{
+      max-width: 100%;
+    }
+    .ContainerSecond{
+      padding: 0 !important;
+    }
+    .Second-Section-Container-Title{
+      padding: 20px 0px;
+    }
+    .cardContainer {
+      margin: 0 auto; /* Center the card */
+  }
+
+  }
+  @media (max-width: 768px) {
+    .movie-hero-banner-body{
+        left: -5%;
+        top: 40%;
+    }
+    
+    
+    
+    
+    
+    
+    
+
+    
+    .video-movie-body-section{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .video-movie-title{
+        font-size: 30px;
+        color: #ffc107;
+    }
+    .video-movie-body-section-text-custom{
+        padding: 0 !important;
+    }
+    .video-container-custom{
+        padding: 0 !important;
+    }
+    .video-main-custom-size{
+      height: auto !important;
+    }
+    .video-movie-body-section{
+      padding: 5px !important;
+    }
+    .container-section-vimeo{
+      padding-bottom: 40px;
+    }
+}
+
+  @media (min-width: 992px) {
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+

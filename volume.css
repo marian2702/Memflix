@@ -1,0 +1,33 @@
+.mute-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+/* Button Styles */
+#muteButton {
+  font-size: 24px; /* Font size for the icon */
+  
+  height: 50px;
+  width: 50px;
+  background-color: rgb(39, 39, 39); /* Background color */
+  color: white; /* Text and icon color */
+  border: none; /* No border */
+  border-radius: 50%; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition-duration: .7s; /* Transition effect */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.13); /* Shadow effect */
+}
+
+/* Button hover effect */
+#muteButton:hover {
+  background-color: rgb(61, 61, 61); /* Change background on hover */
+}
+
+/* Icon Styles */
+.VolumeContainer{
+  position: relative;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,127 @@
+.video-section {
+    background-color: #0c0909;
+    height: auto;
+    width: 100%;
+}
+
+.video-container-custom {
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #222121;
+}
+
+.video-movie-body-section {
+    height: auto;
+    display: flex;
+    padding: 20px;
+    background-color: #222121;
+    align-items: center; /* Vertically centers content */
+}
+
+.video-movie-body-section-image {
+    height: 300px;
+    width: 190px;
+    
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.info-card {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-movie-body-section-text-custom {
+    padding: 10px 20px;
+}
+
+.video-movie-body-section-text {
+    padding: 20px 5px;
+    flex-grow: 1;
+    order: 2;
+}
+
+
+.video-movie-body-section-text-sub-title h2,
+.video-movie-body-section-text-sub-title-second h2 {
+    margin: 0; /* Remove default margins for h2 tags */
+    font-size: 20px;
+    color: #ffc107;
+}
+.video-movie-title{
+    font-size: 40px;
+    color: #ffc107;
+}
+.image-info{
+    display: flex;
+}
+.image-info-container p,
+.genre,
+.fas{
+    color: #ffc107;
+    margin: 0;
+    padding: 5px 0px;
+}
+.genre-tags{
+    display: flex;
+    gap: 5px;
+}
+.video-movie-body-section-text-sub-title-description p {
+    margin: 0; /* Remove default margins on the paragraph */
+    padding: 5px 0px;
+    color: #837e7e;
+}
+
+
+.video-section-vimeo{
+    background-color: #5c1212;
+}
+
+.fas{
+    padding: 2px;
+}
+.image-info{
+    display: flex;
+    justify-content: space-around;
+}
+.image-info-container{
+    display: grid;
+}
+
+
+
+#actor ,
+.episode-season-info-realease-director a{
+    cursor: pointer;
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.container-section-vimeo{
+    height: auto;
+    width: 100%;
+}
+.video-container{
+    height: auto;
+    width: auto;
+    padding: 20px 0px;
+}
+.video-main-custom-size{
+    height: 700px;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#customVideo{
+    height: 100%;
+    position: relative;
+}
+#genres-container{
+    color: #ffc107;
+}
+.genres-text{
+    color: #837e7e;
+}

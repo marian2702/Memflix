@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cusstomPanel.css">
+    <title>Memflix TV Movies & Series</title>
+</head>
+<body>
+    <section class="Section">
+        <div id="overlay">
+            <div class="ContainerPanel">
+                <div class="ContainerPanelPicker">
+                    <div class="ContainerPanelPickerLogoBrand">
+                        <img src="assets/Black and White Minimalist Moder Simple Film Production Logo.png" height="100%" width="100%" alt="" srcset="">
+                    </div>
+                    <div class="LanguageSelector">
+                        <div class="CountryContainer Germany">
+                            <button class="btn" id="btnDeutsch">
+                                <div class="CountryWrapper">
+                                    <div class="CountryFlag">
+                                        <img src="assets/icons8-germany-48.png" alt="" srcset="">
+                                    </div>
+                                    <div class="CountryText">
+                                        <p>DEUTSCH</p>
+                                    </div>
+                                </div>
+                                <script>
+                                    document.getElementById('btnDeutsch').addEventListener('click', redirectToDeutsch);
+                                    function redirectToDeutsch(){
+                                       const GermanContent = window.location.href = 'main.html?lang=deutsch';
+                                    }
+                                    if(GermanContent){
+                                        video.addEventListener('loadedmetadata', function() {
+                                                var tracks = video.textTracks;
+
+                                                // Automatically show the "Deutsch" subtitle track
+                                                for (var i = 0; i < tracks.length; i++) {
+                                                    if (tracks[i].label === "Deutsch") {
+                                                        tracks[i].mode = "showing"; // Show the German subtitles
+                                                    }
+                                                }
+                                            });
+                                    }
+                                </script>
+                            </button>
+                        </div>
+                
+                        <div class="CountryContainer Spain" id="SpanishContent">
+                            <button class="btn" id="btnEspanol">
+                                <div class="CountryWrapper">
+                                    <div class="CountryFlag SpainFlag">
+                                        <img src="assets/icons8-spain-48.png" alt="" srcset="">
+                                    </div>
+                                    <div class="CountryText">
+                                        <p>ESPAÑOLA</p>
+                                    </div>
+                                </div>
+                                <script>
+                                    document.getElementById('btnEspanol').addEventListener('click', redirectToEspanol);
+                                    function redirectToEspanol(){
+                                       const SpannishContent = window.location.href = 'main.html?lang=espanol';
+                                    }
+                                    
+                                </script>
+                            </button>
+                        </div>
+                
+                        <div class="CountryContainer Romania" id="RomanianContent">
+                            <button class="btn" id="btnRomana">
+                                <div class="CountryWrapper">
+                                    <div class="CountryFlag">
+                                        <img src="assets/icons8-romania-48.png" alt="" srcset="">
+                                    </div>
+                                    <div class="CountryText">
+                                        <p>ROMÂNĂ</p>
+                                    </div>
+                                </div>
+                                <script>
+                                    document.getElementById('btnRomana').addEventListener('click', redirectToRomana);
+                                                                function redirectToRomana() {
+                                window.location.href = 'main.html?lang=romana'; // Redirect to index.html with Romana
+                            }
+                                </script>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    
+</body>
+</html>

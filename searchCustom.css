@@ -1,0 +1,40 @@
+input:focus {
+    outline: none !important; /* Remove the default outline */
+    border: none !important; /* Remove the border */
+    box-shadow: none !important; /* Remove any shadow */
+    background-color: black; /* Ensure background stays black on focus */
+    color: #f5a700; /* Text color for input when focused */
+}
+
+.form-control {
+    background-color: black; /* Background color for the input */
+    border: 1px solid #f5a700; /* Set custom border color */
+    color: #f5a700; /* Text color inside input */
+}
+
+input::placeholder {
+    color: #f5a700 !important; /* Placeholder text color */
+}
+
+input {
+    -webkit-appearance: none !important; /* Remove default input styling on WebKit browsers (Chrome, Safari) */
+    -moz-appearance: none !important;    /* Remove default input styling on Firefox */
+    appearance: none !important; /* Remove default input styling */
+    background-color: black; /* Background color for the input */
+    color: #f5a700 !important; /* Text color inside input */
+}
+input:focus {
+    background-color: black !important; /* Ensure background stays black on focus */
+    border: 1px solid #f5a700 !important;
+    color: #f5a700;
+}
+.btn-outline-success{
+    color: #f5a700 !important;
+    border: 1px solid #f5a700 !important;
+}
+.btn-outline-success:hover{
+    background-color: #f5a700;
+}
+.searchIcon:hover{
+    color: black;
+}

@@ -1,0 +1,123 @@
+{
+  "moviesDatabase": [
+    {
+      "MovieID": 1,
+      "title": "The Wisdom of..",
+      "description": "Mental illness, suicide, drug overdose, and autoimmune disorders are interconnected epidemics affecting 1 in 5 Americans annually, according to Dr Gabor Maté.",
+      "releaseDate": "June 8, 2021",
+      "cast": ["Russell Brand", "James Doty", "Tim Ferriss", "Gabor Maté", "Rae Maté"],
+      "director": "Maurizio Benazzo, Zaya Benazzo",
+      "genres": ["Drama", "Documentary"],
+      "rating": "8.0/10",
+      "duration": "01:27:54",
+      "image_path": "assets/movie1.jpg",
+      "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/edda1fc84c22978e398203c0bfac6fd0/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2Fedda1fc84c22978e398203c0bfac6fd0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+    },
+    {
+      "MovieID": 2,
+      "title": "Living with Leo...",
+      "description": "A nature documentary that follows two leopard cubs as they make the journey from infancy into adulthood.",
+      "releaseDate": "May 10, 2024",
+      "cast": ["Brad Bestelink", "Alex Parkinson"],
+      "director": "Alex Parkinson",
+      "genres": ["Nature Documentary", "Documentary"],
+      "rating": "7.4/10",
+      "duration": "01:11:00",
+      "image_path": "assets/movie3.jpg",
+      "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/e955b17933123d22b46f3bf90f1242bb/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2Fe955b17933123d22b46f3bf90f1242bb%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+      
+    },
+    {
+      
+        "MovieID": 3,
+        "title": "Before Sunset",
+        "description": "Nine years after Jesse and Celine first met, they encounter each other again on the French leg of Jesse's book tour.",
+        "releaseDate": "October 14, 2010",
+        "cast": ["Ethan Hawke", "Julie Delpy", "Vernon Dobtcheff"],
+        "director": "Richard Linklater",
+        "genres": ["Romance", "Drama"],
+        "rating": "8.1/10",
+        "duration": "01:20:00",
+        "image_path": "assets/movie6.jpg",
+        "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/26ff959cb74c293057b53ff6f8c755fb/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F26ff959cb74c293057b53ff6f8c755fb%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+      
+    },
+    {
+      
+      "MovieID": 4,
+      "title": "Constantine",
+      "description": "Detective Angela approaches Constantine, a demon hunter, to help her investigate her twin sister's mysterious death. As he digs deeper, he realizes that demons are trying to enter the human world.",
+      "releaseDate": "March 9, 1995",
+      "cast": ["Keanu Reeves", "Rachel Weisz", "Djimon Hounsou"],
+      "director": "Francis Lawrence",
+      "genres": ["Action", "Fantasy","Drama","Mystery","Superhero"],
+      "rating": "7.0/10",
+      "duration": "02:01:00",
+      "image_path": "assets/movie8.jpg",
+      "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/3c7d026b10a5e8cd043e61a873527c29/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F3c7d026b10a5e8cd043e61a873527c29%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+    
+  },
+  {
+      
+    "MovieID": 5,
+    "title": "Safe 2012",
+    "description": "Mei, a young girl whose memory holds a priceless numerical code, finds herself pursued by the Triads, the Russian mob, and corrupt NYC cops. Coming to her aid is an ex-cage fighter whose life was destroyed by the gangsters on Mei's trail.",
+    "releaseDate": "May 31, 2012",
+    "cast": ["Jason Statham", "Catherine Chan", "Chris Sarandon"],
+    "director": "Boaz Yakin",
+    "genres": ["Action", "Crime","Thriller"],
+    "rating": "6.5/10",
+    "duration": "01:34:00",
+    "image_path": "assets/movie9.jpg",
+    "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/07b752e4223656640191061912d20c68/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F07b752e4223656640191061912d20c68%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+  
+},
+{
+      
+  "MovieID": 6,
+  "title": "Mine",
+  "description": "After a failed assassination attempt, a United States Marine finds himself stranded in the desert. Exposed to the elements, he must survive the dangers of the desert and battle the psychological and physical tolls of the treacherous conditions.",
+  "releaseDate": "October 6, 2016",
+  "cast": ["Armie Hammer", "Annabelle Wallis", "Tom Cullen"],
+  "director": "Fabio Guaglione, Fabio Resinaro",
+  "genres": ["Drama", "Thriller","War"],
+  "rating": "5.8/10",
+  "duration": "01:46:00",
+  "image_path": "assets/media phone card-2.jpg",
+  "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/fdabf30211868f9a0563ad1a219116b5/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2Ffdabf30211868f9a0563ad1a219116b5%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+
+},
+{
+      
+  "MovieID": 7,
+  "title": "Roma",
+  "description": "A year in the life of a middle-class family's maid in Mexico City in the early 1970s.",
+  "releaseDate": "December 6, 2018",
+  "cast": ["Yalitza Aparicio", "Marina de Tavira", "Diego Cortina Autrey"],
+  "director": "Alfonso Cuarón",
+  "genres": ["Drama"],
+  "rating": "7.7/10",
+  "duration": "02:15:00",
+  "image_path": "assets/movie10.jpg",
+  "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/90328cb160543975cf3364890a9816b0/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F90328cb160543975cf3364890a9816b0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+
+},
+{
+      
+  "MovieID": 8,
+  "title": "The Platform",
+  "description": "In a prison where inmates are fed on a descending platform, those on the upper levels take more than their fair share while those below are left to starve on scraps, and one man decides to change the system.",
+  "releaseDate": "November 8, 2019",
+  "cast": ["Ivan Massagué", "Zorion Eguileor", "Antonia San Juan"],
+  "director": "Galder Gaztelu-Urrutia",
+  "genres": ["Drama, Mystery, Sci-Fi,Thriller"],
+  "rating": "7.0/10",
+  "duration": "01:34:00",
+  "image_path": "assets/movie11.jpg",
+  "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/8f70ebe1184c60a00738e4337496345f/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F8f70ebe1184c60a00738e4337496345f%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+
+}
+
+  ]
+}
+

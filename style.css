@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+.dropdown-menu,
+.navbar{
+    background-color: #000;
+   
+}
+
+
+.container{
+  position: relative ;
+  display: flex;
+  margin: 0 auto !important;
+  padding: 0;
+}
+
+.nav-link,
+.dropdown-item {
+    color: #f1f1f1; /* Light color for text to contrast with black background */
+    font-family: 'Montserrat', sans-serif; /* Modern, clean font */
+    font-weight: 500; /* Medium weight for readability */
+    font-size: 16px; /* Well-balanced font size */
+    text-decoration: none; /* Clean look without underlines */
+    letter-spacing: 0.5px; /* Slight spacing for improved readability */
+    transition: color 0.3s ease, transform 0.3s ease, border-bottom 0.3s ease;
+    padding: 8px 0; /* Vertical padding for a balanced layout */
+    border-bottom: 2px solid transparent; /* Underline effect */
+    display: inline-block; /* Ensure padding and underline affect layout properly */
+    text-align: center; /* Center text in dropdown */
+}
+
+/* Hover, focus, and active effect with refined look */
+.nav-link:hover,
+.dropdown-item:hover,
+.nav-link:focus,
+.dropdown-item:focus,
+.nav-link:active,
+.dropdown-item:active {
+    color: #f5a700; /* Elegant red color on hover, focus, and active state */ /* Subtle lift effect */
+    border-bottom: 2px solid #ce9c09; /* Underline effect on hover, focus, and active state */
+}
+
+
+.nav-link.active,
+.dropdown-item.active,
+.nav-link:focus,
+.dropdown-item:focus {
+    color: #f5a700; /* Same color for active and open state */
+    background-color: #e7e7e7; /* Background color for active/open state */
+    border-bottom: 2px solid #f5a700; /* Underline effect */
+}
+
+/* Center text in dropdown menu */
+.dropdown-menu {
+    text-align: center; /* Center text in dropdown menu */
+    
+    
+}
+
+
+.MainSection{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.BannerVideoSection{
+  min-height: 88vh;
+  width: 100vw;
+  position: relative;
+  background-color: #000000;
+}
+
+#my-video{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.BannerSection{
+  position: relative;
+}
+.BannerDescriptionContainer{
+  position: absolute;
+  top: 120px;
+  left: 30px;
+  width: auto;
+  padding: 10px;
+}
+
+
+.BannerTitle {
+  font-family: "Playfair Display", serif;
+  color: transparent; /* Makes text color transparent */
+  background: url('assets/texure.jpg') 100% 100% repeat-x; /* Background image */
+  background-position: 100% 100%;
+  background-clip: text;
+  -webkit-background-clip: text; /* For WebKit browsers */
+  font-size: 75px;
+  -webkit-text-fill-color: transparent; /* Specific for WebKit browsers */
+}
+
+
+.bannerSubtitleRating{
+  padding: 10px 0px;
+}
+.durationContainer{
+  padding: 5px;
+}
+.MainDescriptionText{
+  padding: 5px 0px;
+  max-width: 600px;
+}
+.duration{
+  padding: 2px;
+  position: relative;
+}
+.duration p{
+  margin: auto;
+}
+.fa-star{
+  font-size: 15px;
+  color: #f5a700;
+}
+.ratingDisplay{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 5px ;
+}
+.Svgimdb {
+  padding: 0 4px;
+  width: 46px;
+  height: auto;
+}
+
+.maturity-icon {
+  width: 40px; /* Adjusted width */
+  height: 40px; /* Adjusted height */
+  background-color: #f5a700; /* Orange background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px; /* Rounded corners */
+  margin: 0px 10px;
+}
+
+.maturity-icon p {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  margin: 0; /* Remove default margin */
+}
+
+.MainDescriptionText p{
+  font-family: "Roboto", sans-serif;
+  color: #D1D0CF;
+  font-style: normal;
+}
+.banner-flag{
+  color: #f5a700;
+  
+}
+
+
+
+.PlayButtonContainer{
+  align-items: center;
+  text-align: center;
+  display: flex;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+.duration > p,
+.starring > p,
+.Genres-Banner > p,
+.Writers-Banner > p,
+.BannerSubTitle{
+  
+    color: #D1D0CF;
+ 
+}
+.fa-info-circle{
+  font-size: 24px;
+  color: #e7e7e7;
+}
+.ButtonsContainerWrapper,
+.ButtonInfoContainer{
+  display: flex;
+  gap: 10px;
+}
+.ButtonsContainerWrapper{
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ButtonInfoContainer{
+  justify-content: center;
+  align-items: center;
+}
+.buttonsContainer{
+  width: fit-content;
+  position: relative;
+  margin:  auto;
+  padding: 8px;
+  background-color: #f5a700;
+  cursor: pointer;
+}
+.buttonsMainBanner{
+  display: flex;
+  
+}
+.buttonInfoWrapper{
+  display: flex;
+  gap: 2px;
+  padding: 9px 8px;
+  border: 1px solid #f1f1f1;
+  cursor: pointer;
+  width: fit-content;
+  height: auto;
+}
+.PlayWrap{
+  position: relative;
+  display: flex;
+  
+}
+.PlayText{
+  position: relative;
+  margin: auto;
+  padding: 0 10px;
+}
+.PlayText h6{
+  font-size: 16px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  text-align: center !important;
+  position: relative;
+  margin: 0 auto;
+}
+
+video::cue {
+  background-color: transparent; /* No background */
+  color: #ffffff; /* White text similar to Netflix */
+  font-size: 40px; /* Larger font size */
+  font-family: 'Helvetica Neue', Arial, sans-serif; /* Netflix-like font */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); /* Subtle black shadow for contrast */
+  padding: 4px; /* Padding around the text */
+  border-radius: 5px; /* Optional: Rounded corners if you want a background */
+  position: absolute;
+  top: 20px;
+
+}

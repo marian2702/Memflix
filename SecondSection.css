@@ -1,0 +1,137 @@
+*{
+    font-family: 'Poppins', sans-serif;
+     -webkit-user-select: none;
+      -moz-user-select: -moz-none;
+      -o-user-select: none;
+      user-select: none;
+  }
+
+
+
+
+.Movies-Second-Section{
+    height: auto;
+    width: vw;
+    padding: 10px;
+    background-color: rgb(12, 12, 12);
+}
+#TitleSecondContent{
+    color: #f5a700;
+    padding-left: 7px;
+}
+.Movies-Second-Section-Container{
+    height: 100%;
+    width: 100%;
+    padding: 4%;
+    background-color: rgb(12, 12, 12);
+}
+.Second-Section-Container-Title{
+    padding: 5px;
+}
+.CardContainerInfo-Title h5{
+    color: #f5a700;
+}
+.Movies-Second-Section-Container-Wrapper{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgb(12, 12, 12);
+}
+
+.ContainerSecond{
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: rgb(12, 12, 12);
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    height: 26rem;
+    width: 15rem;
+    position: relative;
+    cursor: pointer;
+    
+} 
+.cardContainer-Up{
+    height: 300px;
+}
+.cardContainer-Bottom{
+    height: 100px;
+    padding: 10px;
+    background-color: rgb(19, 16, 9);
+}
+.cardContainer-Bottom-Wrapper{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardContainer-Up img{
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    display: block;
+    width: 100%;
+}
+.PlayButtonWatch{
+    position: absolute;
+    top: 69%;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #f5a700;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; /* Horizontally center the icon */
+    align-items: center;
+    cursor: pointer;
+    z-index: 9999;
+}
+.PlayButtonWatch:hover {
+    background-color: #f5a700; /* Brighten up the button */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+.play_button{
+    font-size: 25px;
+}
+.RatingMovieCard {
+    display: flex;
+    gap: 5px;
+    align-items: center; /* Aligns items (icon and text) vertically */
+    justify-content: center; /* Centers content horizontally */
+}
+
+.RatingMovieCard span {
+    display: inline-flex; /* Makes the span behave like a flex container */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    margin: 0; /* Ensure there's no extra margin */
+    text-align: center; /* Center the text inside */
+}
+
+.RatingMovieCard p {
+    margin: 0; /* Remove default margin from the paragraph */
+    font-size: 16px; /* Adjust font size if necessary */
+    color: #f5a700;
+}
+.YearCard {
+    position: relative;
+}
+
+.YearCard p {
+    text-align: right; /* Aligns text to the right */
+    color: #f5a700;
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Optional: ensure no extra padding */
+}
+.CardContainerInfoYear-Rating{
+    display: flex;
+    width: 100%;
+    align-items: end;
+    justify-content: space-between;
+}

@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+Section{
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/c227efa7db5a8bdd9f46406c51848df3.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(3px);
+    height: 100%;
+    width: 100%;
+    z-index: 999; /* Ensures it's on top of other content */
+    
+}
+.ContainerPanel {
+    position: absolute; /* Use absolute positioning for centering */
+    left: 50%;
+    top: 45%; /* Also center vertically */
+    transform: translate(-50%, -50%); /* Correct translate syntax to offset by half the width and height */
+    height: auto;
+    width: 400px;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    margin: 0 auto;
+    
+}
+.ContainerPanelPicker{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(32, 32, 32);
+    padding: 10px 10px;
+}
+.ContainerPanelPickerLogoBrand{
+    height: 100px;
+    width: 200px;
+}
+.ContainerPanelPickerLogoBrand{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: auto;
+}
+.ContainerPanelPickerLogoBrand img{
+    object-fit: contain;
+}
+
+.LanguageSelector{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(39, 38, 38);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+    gap: 20px;
+}
+.CountryContainer{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    gap: 10px;
+    padding: 30px 0px;
+    background-color: rgb(39, 38, 38);
+    border-radius: 10px;
+    border: 2px solid #f5a700;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.CountryContainer:hover{
+    background-color: #3d3c3b;
+    
+}
+
+.CountryWrapper{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.CountryText p{
+    color: #f5a700;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.btn{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
