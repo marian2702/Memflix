@@ -4,19 +4,19 @@ var video = document.getElementById('my-video');
 
     
 
-    
+    // Load the video using HLS
     if (Hls.isSupported()) {
         var hls = new Hls();
         hls.loadSource(videoSrc);
         hls.attachMedia(video);
 
-        
+        // Event for manifest parsed
         hls.on(Hls.Events.MANIFEST_PARSED, function() {
             // Check if 1080p is available
             var levels = hls.levels;
             var is1080pAvailable = levels.some(level => level.height === 1080);
             if (is1080pAvailable) {
-                
+                // Set the desired quality to 1080p
                 hls.currentLevel = levels.findIndex(level => level.height === 1080);
             }
         });
@@ -46,10 +46,10 @@ var video = document.getElementById('my-video');
             video.addEventListener('loadedmetadata', function () {
                 var tracks = video.textTracks;
     
-                
+                // Automatically show the "Español" subtitle track
                 for (var i = 0; i < tracks.length; i++) {
                     if (tracks[i].label === "Deutsch") {
-                        tracks[i].mode = "showing"; 
+                        tracks[i].mode = "showing"; // Show the Spanish subtitles
                     }
                 }
             });
@@ -65,10 +65,10 @@ var video = document.getElementById('my-video');
             video.addEventListener('loadedmetadata', function () {
                 var tracks = video.textTracks;
     
-                
+                // Automatically show the "Español" subtitle track
                 for (var i = 0; i < tracks.length; i++) {
                     if (tracks[i].label === "español") {
-                        tracks[i].mode = "showing"; 
+                        tracks[i].mode = "showing"; // Show the Spanish subtitles
                     }
                 }
             });
@@ -85,10 +85,10 @@ var video = document.getElementById('my-video');
             video.addEventListener('loadedmetadata', function () {
                 var tracks = video.textTracks;
     
-                
+                // Automatically show the "Español" subtitle track
                 for (var i = 0; i < tracks.length; i++) {
                     if (tracks[i].label === "română") {
-                        tracks[i].mode = "showing"; 
+                        tracks[i].mode = "showing"; // Show the Spanish subtitles
                     }
                 }
             });
