@@ -48,7 +48,7 @@ function fetchJSONData() {
 
                 // Add click event to redirect to test.html with MovieID
                 movieCard.addEventListener('click', () => {
-                    window.location.href = `test.html/movie.id=${movie.MovieID}`;
+                    window.location.href = `test.html?movie.id=${movie.MovieID}`;
                 });
 
                 movieCards.appendChild(movieCard);
