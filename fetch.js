@@ -9,7 +9,7 @@ function fetchJSONData() {
         .then((data) => {
             const movieCards = document.getElementById('movie-cards');
             // Clear existing cards if necessary
-            
+            movieCards.innerHTML = '';
 
             // Loop through each movie and create a card
             data.moviesDatabase.forEach(movie => {
@@ -48,7 +48,7 @@ function fetchJSONData() {
 
                 // Add click event to redirect to test.html with MovieID
                 movieCard.addEventListener('click', () => {
-                    window.location.href = `test.html?movie.id=${movie.MovieID}`;
+                    window.location.href = `test.html?movieid=${movie.MovieID}`;
                 });
 
                 movieCards.appendChild(movieCard);
