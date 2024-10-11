@@ -9,7 +9,7 @@ function fetchJSONData() {
         .then((data) => {
             const movieCards = document.getElementById('movie-cards');
             // Clear existing cards if necessary
-            movieCards.innerHTML = '';
+            
 
             // Loop through each movie and create a card
             data.moviesDatabase.forEach(movie => {
