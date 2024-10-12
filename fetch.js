@@ -47,9 +47,9 @@ function fetchJSONData() {
                 `;
 
                 // Add click event to redirect to test.html with MovieID
-                movieCard.addEventListener('click', () => {
-                    window.location.href = `test.html?movieid=${movie.MovieID}`;
-                });
+                 movieCard.addEventListener('click', () => {
+                  window.location.href = `test.html?movieTitle=${movie.title}`;
+              });
 
                 movieCards.appendChild(movieCard);
             });
