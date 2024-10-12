@@ -89,21 +89,6 @@
 },
 {
       
-  "MovieID": 7,
-  "title": "Roma",
-  "description": "A year in the life of a middle-class family's maid in Mexico City in the early 1970s.",
-  "releaseDate": "December 6, 2018",
-  "cast": ["Yalitza Aparicio", "Marina de Tavira", "Diego Cortina Autrey"],
-  "director": "Alfonso Cuarón",
-  "genres": ["Drama"],
-  "rating": "7.7/10",
-  "duration": "02:15:00",
-  "image_path": "assets/movie10.jpg",
-  "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/90328cb160543975cf3364890a9816b0/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F90328cb160543975cf3364890a9816b0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
-
-},
-{
-      
   "MovieID": 8,
   "title": "The Platform",
   "description": "In a prison where inmates are fed on a descending platform, those on the upper levels take more than their fair share while those below are left to starve on scraps, and one man decides to change the system.",
