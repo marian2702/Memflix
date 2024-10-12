@@ -2,16 +2,16 @@
   "moviesDatabase": [
     {
       "MovieID": 1,
-      "title": "The Wisdom of..",
+      "title": "Fury 2014",
       "description": "Mental illness, suicide, drug overdose, and autoimmune disorders are interconnected epidemics affecting 1 in 5 Americans annually, according to Dr Gabor Maté.",
       "releaseDate": "June 8, 2021",
-      "cast": ["Russell Brand", "James Doty", "Tim Ferriss", "Gabor Maté", "Rae Maté"],
-      "director": "Maurizio Benazzo, Zaya Benazzo",
-      "genres": ["Drama", "Documentary"],
-      "rating": "8.0/10",
-      "duration": "01:27:54",
+      "cast": ["Brad Pitt", "Shia LaBeouf", "Logan Lerman"],
+      "director": "David Ayer",
+      "genres": ["Drama", "War","Action"],
+      "rating": "7.6/10",
+      "duration": "02:14:00",
       "image_path": "assets/movie1.jpg",
-      "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/edda1fc84c22978e398203c0bfac6fd0/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2Fedda1fc84c22978e398203c0bfac6fd0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+      "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/ec4e8987f5589d48b52f3a5612c5690d/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2Fec4e8987f5589d48b52f3a5612c5690d%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
     },
     {
       "MovieID": 2,
