@@ -60,16 +60,16 @@
   {
       
     "MovieID": 5,
-    "title": "Safe 2012",
-    "description": "Mei, a young girl whose memory holds a priceless numerical code, finds herself pursued by the Triads, the Russian mob, and corrupt NYC cops. Coming to her aid is an ex-cage fighter whose life was destroyed by the gangsters on Mei's trail.",
-    "releaseDate": "May 31, 2012",
-    "cast": ["Jason Statham", "Catherine Chan", "Chris Sarandon"],
-    "director": "Boaz Yakin",
-    "genres": ["Action", "Crime","Thriller"],
-    "rating": "6.5/10",
-    "duration": "01:34:00",
+    "title": "Cold Mountain",
+    "description": "In the waning days of the American Civil War, a wounded soldier embarks on a perilous journey back home to Cold Mountain, North Carolina to reunite with his sweetheart.",
+    "releaseDate": "February 19, 2004",
+    "cast": ["Jude Law", "Nicole Kidman", "Renée Zellweger"],
+    "director": "Anthony Minghella",
+    "genres": ["Action", "Romance","War"],
+    "rating": "7.2/10",
+    "duration": "02:34:00",
     "image_path": "assets/movie9.jpg",
-    "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/07b752e4223656640191061912d20c68/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2F07b752e4223656640191061912d20c68%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+    "LinkSource": "https://customer-y4rf9cvqyukyhwk8.cloudflarestream.com/b883b0cddd5a470f725822311f6c29ca/iframe?poster=https%3A%2F%2Fcustomer-y4rf9cvqyukyhwk8.cloudflarestream.com%2Fb883b0cddd5a470f725822311f6c29ca%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
   
 },
 {
