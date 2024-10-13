@@ -125,3 +125,10 @@
 .genres-text{
     color: #837e7e;
 }
+video::cue {
+            background: transparent;  /* Remove subtitle background */
+            color: white;             /* Set subtitle text color to white */
+            font-family: 'Helvetica Neue', Arial, sans-serif;  /* Netflix-like font */
+            font-size: 18px;          /* Adjust the font size */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.75); /* Netflix-style shadow */
+        }
