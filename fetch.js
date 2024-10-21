@@ -60,3 +60,17 @@ function fetchJSONData() {
 }
 
 fetchJSONData();
+
+
+
+const section1 = document.getElementById('FirstSection');
+const InitialCoords = section1.getBoundingClientRect();
+const NavigationSticky = document.getElementById('NaviStick');
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY > InitialCoords.top) {
+        NavigationSticky.classList.add('sticky');
+    } else {
+        NavigationSticky.classList.remove('sticky');
+    }
+});
