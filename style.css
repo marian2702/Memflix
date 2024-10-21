@@ -12,7 +12,11 @@
    
 }
 
-
+#NaviStick.sticky {
+  position: sticky;
+  top: 0; /* Adjust as needed */
+  z-index: 2213213; /* Ensures it stays on top */
+}
 .container{
   position: relative ;
   display: flex;
